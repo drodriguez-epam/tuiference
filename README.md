@@ -1,8 +1,8 @@
 # tuiference
 
-A minimal terminal WordReference lookup TUI written in Go.
+A minimal terminal dictionary lookup TUI written in Go.
 
-Results are rendered as compact WordReference-style sections, preserving translation groups where the page exposes them.
+Results are rendered as compact dictionary-style sections, preserving translation groups where the provider exposes them.
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -69,9 +69,9 @@ The update command requires `go` on `PATH` and runs `go install github.com/Danda
 - `Up` / `Down` / `PageUp` / `PageDown`: scroll results
 - `Esc` / `Ctrl+C`: quit
 
-## Languages
+## Languages and Providers
 
-The first version supports WordReference combinations between English, Spanish, and French:
+WordReference powers combinations between English, Spanish, and French:
 
 - English -> Spanish
 - English -> French
@@ -79,6 +79,15 @@ The first version supports WordReference combinations between English, Spanish, 
 - Spanish -> French
 - French -> English
 - French -> Spanish
+
+PONS powers combinations that include German:
+
+- English -> German
+- German -> English
+- Spanish -> German
+- German -> Spanish
+- French -> German
+- German -> French
 
 ## Release
 
