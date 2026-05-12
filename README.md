@@ -52,6 +52,14 @@ go build -o tuiference .
 tuiference
 ```
 
+Update an existing Go-based install:
+
+```sh
+tuiference update
+```
+
+The update command requires `go` on `PATH` and runs `go install github.com/Dandarprox/tuiference@latest`.
+
 ## Controls
 
 - `Tab`: cycle origin language
